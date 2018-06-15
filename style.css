@@ -1,0 +1,66 @@
+.hidden{
+    display: none;
+}
+
+.image{
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.image > img, .display{
+    width: 100px;
+    height: 100px;
+}
+
+input,select {
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+select {
+    background: none;
+}
+
+.form-data{
+    padding: 4px;
+    width: 450px;
+    font-size: 15px;
+}
+
+#edit, #successMessage {
+    float: right;
+    margin-bottom: 20px;
+}
+#save_changes{
+    cursor: not-allowed;
+    padding: 4px;
+    width: 200px;            
+}
+
+#manage_menu, #updateUserTab{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#upload_error, #add_imageInstruct{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 100px;
+    height: 100px
+}
+
+#add_imageInstruct{
+    cursor: pointer;
+}
+
+ .users-table {
+    border: 1px solid black;
+    margin-top: 20px;
+ }
+
+.users-table td {
+    border: 1px solid black;
+    padding: 3px;
+}
